@@ -935,6 +935,22 @@ canvas {
     margin-top: 25px;
   }
 }
+
+/* ipad Mini Portrait */
+@media only screen and (width:768px) and (resolution: 163dpi) {
+  .col-countdown {
+    width: 50%;
+    margin-top: 25px;
+  }
+}
+
+/* ipad Mini Landscape */
+@media only screen and (width:1024px) and (resolution: 163dpi) {
+  .col-countdown {
+    width: 50%;
+    margin-top: 25px;
+  }
+}
 .countdown-amount {
   line-height: 1;
   font-size: 20px;
