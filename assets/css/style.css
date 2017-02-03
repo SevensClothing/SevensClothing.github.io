@@ -389,6 +389,13 @@ textarea {
   margin-top: 15px;
 }
 
+@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+  .header-logo {
+    height: 40px;
+    margin-top: 10px;
+  }
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
     .header-logo {
       height: 40px;
