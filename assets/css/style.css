@@ -948,7 +948,7 @@ canvas {
 @media only screen and (width:1024px) and (resolution: 163dpi) {
   .col-countdown {
     width: 50%;
-    margin-top: 25px;
+    margin-top: -20px;
   }
 }
 .countdown-amount {
