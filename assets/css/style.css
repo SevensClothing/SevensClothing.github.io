@@ -597,16 +597,16 @@ section {
 }
 @media screen and (min-width: 768px) {
   section {
-    top: 80px;
-    bottom: 80px;
+    top: 60px;
+    bottom: 60px;
     left: 0;
     right: 0;
   }
 }
 @media screen and (min-width: 992px) {
   section {
-    top: 100px;
-    bottom: 100px;
+    top: 80px;
+    bottom: 80px;
     left: 0;
     right: 0;
   }
