@@ -395,6 +395,16 @@ textarea {
   /* For landscape layouts only */
   #home {
     padding-bottom: -90px;
+    display: inline-block;
+  }
+}
+
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 320px) and (orientation:landscape) {
+  /* For landscape layouts only */
+  #home {
+    /*padding-bottom: -90px;*/
+    display: inline-block;
   }
 }
 
@@ -872,7 +882,7 @@ canvas {
   font-weight: 400;
   letter-spacing: 5px;
   padding-left: 5px;
-  font-size: 30px;
+  font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 0;
   color: #404040;
@@ -927,7 +937,7 @@ canvas {
 }
 .countdown-amount {
   line-height: 1;
-  font-size: 38px;
+  font-size: 20px;
   letter-spacing: 0;
   color: #404040;
 }
@@ -1259,6 +1269,29 @@ section {
 .amaran-wrapper-inner {
   height: 100%;
 }
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+   #home {
+     display: inline-block;
+   }
+}
+
+Phone < 5:
+@media screen and (device-aspect-ratio: 2/3) {}
+
+iPhone 5:
+@media screen and (device-aspect-ratio: 40/71) {}
+
+iPhone 6:
+@media screen and (device-aspect-ratio: 375/667) {}
+
+iPhone 6 Plus:
+@media screen and (device-aspect-ratio: 16/9) {}
+
+iPad:
+@media screen and (device-aspect-ratio: 3/4) {}
 /*==================================================
 11 - Responsive
 ==================================================*/
