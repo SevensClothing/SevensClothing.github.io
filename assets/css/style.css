@@ -386,12 +386,12 @@ textarea {
   -o-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   height: 45px;
-  margin-top: auto;
+  margin-top: 15px;
 }
 @media screen and (min-width: 768px) {
   .header-logo {
     height: 40px;
-    margin-top: auto;
+    margin-top: 12px;
   }
 }
 @media screen and (min-width: 992px) {
