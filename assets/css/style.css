@@ -1278,6 +1278,20 @@ and (max-device-width : 568px) {
    }
 }
 
+/* ipad Mini Portrait */
+@media only screen and (width:768px) and (resolution: 163dpi) {
+  #home {
+    display: inline-block;
+  }
+}
+
+/* ipad Mini Landscape */
+@media only screen and (width:1024px) and (resolution: 163dpi) {
+  #home {
+    display: inline-block;
+  }
+}
+
 Phone < 5:
 @media screen and (device-aspect-ratio: 2/3) {}
 
