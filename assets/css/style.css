@@ -361,12 +361,12 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   #site-header {
-    height: 70px;
+    height: 90px;
   }
 }
 @media screen and (min-width: 992px) {
   #site-header {
-    height: 80px;
+    height: 100px;
   }
 }
 /* header brand */
