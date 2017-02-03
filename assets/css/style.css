@@ -391,11 +391,13 @@ textarea {
 @media screen and (min-width: 768px) {
   .header-logo {
     height: 40px;
+    margin-top: 5px;
   }
 }
 @media screen and (min-width: 992px) {
   .header-logo {
     height: 50px;
+    margin-top: 5px;
   }
 }
 .light .logo-dark.header-logo {
