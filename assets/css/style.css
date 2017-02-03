@@ -590,8 +590,8 @@ textarea {
 }
 section {
   position: absolute;
-  top: 40px;
-  bottom: 40px;
+  top: 10px;
+  bottom: 10px;
   left: 0;
   right: 0;
 }
