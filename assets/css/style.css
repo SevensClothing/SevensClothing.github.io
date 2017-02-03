@@ -373,6 +373,8 @@ textarea {
 .header-brand {
   float: left;
 }
+
+
 /* header logo */
 .header-logo {
   -webkit-transform: translate3d(0, 0, 0);
@@ -389,10 +391,10 @@ textarea {
   margin-top: 15px;
 }
 
-@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
-  .header-logo {
-    height: 30px;
-    margin-top: -5px;
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+  #home {
+    margin-bottom: -30px;
   }
 }
 
@@ -404,7 +406,7 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   .header-logo {
-    height: 40px;
+    height: 44px;
     margin-top: 12px;
   }
 }
