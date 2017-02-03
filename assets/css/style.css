@@ -515,10 +515,12 @@ textarea {
   text-align: center;
   font-size: 26px;
   position: relative;
+  margin-top: auto;
 }
 @media screen and (min-width: 768px) {
   #menu-toggle i {
     line-height: 50px;
+    margin-top: auto;
   }
 }
 #menu-toggle i:before {
@@ -536,12 +538,14 @@ textarea {
   height: 44px
       width: 44px;
   line-height: 44px;
+  margin-top: auto;
 }
 @media screen and (min-width: 768px) {
   #menu-toggle i:before {
     height: 50px
       width: 50px;
     line-height: 50px;
+    margin-top: auto;
   }
 }
 .menu-in #menu-toggle i {
