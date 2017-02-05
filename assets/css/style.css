@@ -138,13 +138,20 @@ body {
 /*==============================================================================
 4 - Typography
 ==============================================================================*/
+@font-face {
+  font-family: myFirstFont;
+  src: url(Bentham-Regular.ttf);
+
+}
+
+
 body {
-  font-weight: 400;
-  letter-spacing: 0.5px;
-  padding-left: 0.5px;
-  line-height: 1.75;
+  font-weight: 200;
+  /*letter-spacing: 0.5px;*/
+  /*padding-left: 0.5px;
+  line-height: 1.75;*/
   font-size: 18px;
-  font-family: "Ubuntu Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: myFirstFont;
 }
 h1,
 .h1,
