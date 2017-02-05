@@ -151,7 +151,7 @@ body {
   padding-left: 0.5px;
   line-height: 1.75;
   font-size: 18px;
-  font-family: "Ubuntu Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: myFirstFont;
 }
 h1,
 .h1,
@@ -966,6 +966,7 @@ canvas {
   font-size: 20px;
   letter-spacing: 0;
   color: #404040;
+  font-family: "Ubuntu Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @media screen and (min-width: 768px) {
   .countdown-amount {
