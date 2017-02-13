@@ -230,10 +230,12 @@ i {
   color: rgba(255, 255, 255, 0.99);
   background-color: rgba(0, 0, 0, 0.99);
 }
-
 #MERGE0 {
   width: 100%;
-  opacity: 0.1;
+
+}
+#MERGE0 input, select, textarea {
+  color: white;
 }
 
 .box {
