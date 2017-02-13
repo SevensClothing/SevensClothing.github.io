@@ -230,6 +230,24 @@ i {
   color: rgba(255, 255, 255, 0.99);
   background-color: rgba(0, 0, 0, 0.99);
 }
+
+#MERGE0 {
+  width: 100%;
+  opacity: 0.1;
+}
+
+.box {
+  color: white;
+}
+#address {
+  color: white;
+  margin-top: -10px;
+}
+.contact-address {
+ color: white;
+ padding-top: 10px;
+
+}
 /*==============================================================================
 5 - Component
 ==============================================================================*/

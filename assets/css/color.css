@@ -48,7 +48,7 @@ dark background, light text
 }
 .dark #form-subscribe button:hover i {
   /* button icon hover */
-  color: rgba(255, 255, 255, 0.99);
+  color: #404040;
 }
 .dark #volume {
   /* volume bg */
@@ -118,11 +118,11 @@ light background, dark text
 .light #form-subscribe .form-control {
   background-color: rgba(255, 255, 255, 0.05);
 }
-.light #form-subscribe button i {
+.light #form-subscribe button i, a {
   /* button icon */
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.99);
 }
-.light #form-subscribe button:hover i {
+.light #form-subscribe button:hover i, a {
   /* button icon hover */
   color: rgba(255, 255, 255, 0.99);
 }
@@ -140,13 +140,13 @@ body.light {
 }
 .light a:not(.btn) {
   /* link */
-  color: rgba(62, 68, 89, 0.99);
+  color: white;
 }
 .light a:not(.btn):focus {
-  color: rgba(62, 68, 89, 0.99);
+  color: #bae0dc;
 }
 .light a:not(.btn):hover {
-  color: rgba(62, 68, 89, 0.85);
+  color: #bae0dc;
 }
 .light .form-control {
   /* form */
