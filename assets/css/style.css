@@ -251,6 +251,9 @@ i {
 .contact-address i {
   padding: 2px;
 }
+#home .section-title {
+  font-size: 40px;
+}
 
 /*==============================================================================
 5 - Component
