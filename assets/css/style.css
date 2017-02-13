@@ -230,14 +230,11 @@ i {
   color: rgba(255, 255, 255, 0.99);
   background-color: rgba(0, 0, 0, 0.99);
 }
-#MERGE0 {
+#MERGE0 textarea {
+  background: transparent;
   width: 100%;
-
+  color: #fff;
 }
-#MERGE0 input, select, textarea {
-  color: white;
-}
-
 .box {
   color: white;
 }
@@ -245,10 +242,14 @@ i {
   color: white;
   margin-top: -10px;
 }
-.contact-address {
+.contact-address  {
  color: white;
  padding-top: 10px;
+ padding: 2px;
 
+}
+.contact-address i {
+  padding: 2px;
 }
 /*==============================================================================
 5 - Component
